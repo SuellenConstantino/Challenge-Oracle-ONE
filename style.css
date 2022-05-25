@@ -1,0 +1,114 @@
+* {
+    font-family: "Inconsolata", monospace;
+    font-size: 25px;
+    text-align: center;
+    line-height: 150%;
+}
+body {
+    background: rgb(47, 144, 248)
+    
+}
+.main {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 10px;
+}
+.logo {
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+textarea {
+    resize:35%;
+    border-radius: 35px;
+    box-sizing: border-box;
+    
+}
+
+textarea::placeholder {
+    color: #063a7a;
+}
+.texto-entrada {  
+    background: none;
+    margin-top: 80px;
+    padding: 80px 50 0;
+    box-sizing: border-box;
+}
+.informacao {
+    display: block;
+    margin-top: 16px;
+    font-size: 15px;
+}
+.botoes {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    transition: 1s;
+    cursor: pointer;
+}
+.botoes:hover{
+    font-size: 10px;
+   
+}
+#botaoCriptografar{
+    background-color: rgb(191, 220, 253);
+    color:#2a69bb;
+    padding: 5px 50px 0;
+    box-sizing: border-box;
+    
+}
+#botaoDesincriptografar {
+    background: #2a69bb;
+    color: rgb(191, 220, 253);
+    margin-left: 230px;
+    padding: 5px 45px 0;
+}
+#resultado{
+    
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 50px 0px;
+    box-sizing: border-box;
+}
+#resultado:placeholder-shown{
+    
+    background-image: url("/imagens/imagem\ alura.png");
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+#resultado:focus{
+    outline: 0;
+}
+#botaoCopia{
+    margin-left: 75px;
+    margin-top: 35px;
+    padding: 5px 80px 0;
+    background: #063a7a;
+    color: rgb(191, 220, 253);
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+footer p{
+    position:absolute;
+    margin-left: 300px;
+    padding: 60px 90px;
+    font-weight: bold;
+    color: #494242;
+}
+/*imagem do gitHub*/
+.github{ 
+    padding: 40px 330px;
+    background-position: center;
+}
+footer img{
+    cursor: pointer;
+}
+
